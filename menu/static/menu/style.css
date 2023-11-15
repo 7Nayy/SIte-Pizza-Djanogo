@@ -1,9 +1,5 @@
-li {
-    color: blue;
-}
-
 body {
-    background: url("images/menu_background.jpg") no-repeat center center fixed;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/menu_background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,7 +26,7 @@ h1{
 }
 
 .menu_list {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .menu_list_item{
@@ -58,4 +54,16 @@ h1{
     color: #C8C8C8;
     padding: 4px;
     display: block;
+    width: 320px;
+}
+
+.menu_list_badge{
+    background-color: #DD7835;
+    color: black;
+    font-size: 9px;
+    padding: 3px 8px;
+    margin-top: 4px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
 }
